@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,13 +19,16 @@
 
 <body>
     <section id="home" class="big">
-        <?php include ('menu.php');?>
+        <?php include ('menu.php');
+      
+        ?>
     </section>
 
-
+<section>  <?php echo $_SESSION["tipoUsuario"];?></section>
             
 <section>
 <?php
+     
   require('footer.php');
 ?> 
     

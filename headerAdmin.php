@@ -23,7 +23,7 @@
         <header>
             <nav id='cssmenu'>
 
- <a title="En Facebook " target="_blank" ><img src="img/123.png" /></a>
+ <a title="" target="_blank" ><img src="img/123.png" /></a>
 
 
                 <div id="head-mobile"></div>
