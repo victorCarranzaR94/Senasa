@@ -1,0 +1,116 @@
+@charset "utf-8";
+.loginPart {
+    width: 370px;
+    margin: 0 auto;
+}
+
+form div {
+    width: 470px;
+    height: auto;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    margin: 145px auto 145px auto;
+    background-color: #DFE0DF!important;
+    padding-bottom: 5px;
+    transition: height 0.5s ease;
+}
+
+form div >p {
+    font-family: 'heroregular';
+    font-size: 16px;
+    text-align: center;
+    color: #1C2833;
+}
+
+form div h2 {
+    font-size: 28px !important;
+    border-radius: 9px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Lato Light';
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    background: #0E5324;
+}
+
+.dato {
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+    transition: all .4s .1s;
+    padding: 0px 6px;
+    outline: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 5px;
+    border: solid 2px #999999;
+}
+
+.dato:focus:invalid {
+    border-color: red;
+    background: url(../img/cancel%20.png) no-repeat center left 90%;
+}
+
+.dato:focus:valid {
+    border-color: green;
+    background: url(../img/check.png) no-repeat center left 90%;
+}
+
+form div p {
+    margin: 15px 0 20px;
+}
+
+form div p input[type="text"]:focus,
+form div p input[type="email"]:focus,
+form div p input[type="password"]:focus,
+form div p input[type="tel"]:focus {
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 1px 2px #000000;
+    transition: box-shadow 0.5s ease;
+}
+
+form div p input[type="text"],
+form div p input[type="email"],
+form div p input[type="password"],
+form div p input[type="tel"] {
+    box-shadow: 0px 0px 0px 4px #f2f5f7;
+    width: 290px;
+    height: 33px;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+    color: #aeaeae;
+    border: 1px solid #bec2c4;
+    outline: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 100%;
+    display: block;
+}
+
+form .buttonLogin {
+    width: 140px;
+    height: 38px;
+    border: 0px;
+    display: block;
+    margin: 16px auto -5px auto;
+    font-size: 16px;
+    font-family: 'Lato Light';
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #F27A67;
+}
+
+form .buttonLogin:hover {
+    transition: background-color 0.5s ease;
+    background-color: #E6100E;
+    border-radius: 5px;
+    color: #000;
+}
