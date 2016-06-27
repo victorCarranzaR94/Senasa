@@ -11,32 +11,39 @@ session_start();
     </head>
 
 <body>
- 
-    <div class="controlSec" id="bodySection">
-        <form id="form" method="post" enctype="multipart/form-data">
-            <h2> Control de Movilizacion de animales</h2>
-            <div id="FormL">
+ <div class="divBody">
+   
+    <div class="divB1">
+        
+         <form id="form" method="post" enctype="multipart/form-data">
+            <h2> Control de Movilizacion de animales</h2><br/>
+                <div class="b1In">
+                    <input class="dato" type="text" name="cantFincas">
+                    <input class="dato" type="text" name="guiasOficiales">
+                    <input class="dato" type="text" name="copiasGuiasR"> 
+                    <input class="dato" type="text" name="guiasDB">
+                    <input class="dato" type="text" name="procesosDB">
+                    <input class="dato" type="text" name="cantFincas">
+                </div>
+                <div class="b1text">
+                
                 <label class="label" >N° Finca de bovinos inscritos</label><br/>
                 <label class="label">N° guias oficiales entregadas</label><br/>
-                <label class="label">N° copias de guias recibidas</label><br/>
-                <label class="label">N° guias procesadas en base de datos</label><br/>
+                <label class="label">N° guias recibidas</label><br/>
+                <label class="label">N° guias procesadas </label><br/>
                 <label class="label">N° procesos en base de datos</label><br/>
-                <label class="label">N° guias entregadas a oficiales</label><br/>
-            </div >
-               <div id="FormR">
-                <input class="dato" type="text" name="cantFincas"><br/>
-                <input class="dato" type="text" name="guiasOficiales"><br/>
-                <input class="dato" type="text" name="copiasGuiasR"><br/>
-                <input class="dato" type="text" name="guiasDB"><br/>
-                <input class="dato" type="text" name="procesosDB"><br/>
-                <input class="dato" type="text" name="cantFincas"><br/>
-                  
+                <label class="label">N° guias entregadas a oficiales</label><br/><br/>
+                 <input type="submit" value="Guardar" class="btnReg">
                </div>
-             <input type="submit" value="Guardar" class="btnReg">
+            
             
         </form>
+        
     </div>
-    
+    <div class="divB2"></div>
+    <div class="divB3"></div>
+ </div>
+     
     <section> <?php  require('footer.php'); ?> </section>
 </body>
 
