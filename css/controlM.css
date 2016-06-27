@@ -146,5 +146,16 @@
     width: 25%;
       height: 400px;   
 }
+
+.btnCancel{
+       background-color: #F27A67;
+    height: 35px;
+    width: 80px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-family: 'Lato Regular';
+    color: #fff;
+    margin: 20px 0px 0 610px;
+}
     
 

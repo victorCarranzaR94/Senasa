@@ -1,6 +1,22 @@
 <?php
 require('headerAdmin.php');
 session_start();
+
+?>
+
+<?php 
+    if($_POST){
+        if($_POST["guardarCM"]){
+            echo "hola has precionado el guardar del form1";
+        }
+      /*   if($_POST["guardarCI"]){
+            
+        }
+         if($_POST["guardarCR"]){
+            
+        }*/
+        
+    }
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +49,7 @@ session_start();
                 <label class="label">N° guias procesadas </label><br/>
                 <label class="label">N° procesos en base de datos</label><br/>
                 <label class="label">N° guias entregadas a oficiales</label><br/><br/>
-                    <button type="submit" value="guardarCM " class="btnReg">Guardar</button>
+                    <button type="submit" name="guardarCM" value="guardarCM " class="btnReg">Guardar</button>
                </div>
             
             
@@ -60,7 +76,7 @@ session_start();
                 <label class="label">Numero de participaciones</label><br/><br>
                 <label class="label">Lugar</label><br/><br>
                 <br/><br/>
-                 <button type="submit" value="guardarCI " class="btnReg">Guardar</button>
+                 <button type="submit" name="guardarCI" value="guardarCI " class="btnReg">Guardar</button>
                </div>
         </form>
     </div>
@@ -84,12 +100,12 @@ session_start();
                 <label class="label">Lugar</label><br/><br>
                 <label class="label">Numero participantes</label><br/><br>
                 <br/><br/>
-                 <button type="submit" value="guardarCR " class="btnReg">Guardar</button>
+                 <button type="submit"  name="guardarCR" value="guardarCR " class="btnReg">Guardar</button>
                </div>
         </form>
     </div>
  </div>
-     
+      <input type="reset" name="reset" onClick="window.location.replace('principal.php')" value="Cancelar" class="btnCancel">
     <section> <?php  require('footer.php'); ?> </section>
 </body>
 
