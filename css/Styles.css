@@ -100,6 +100,43 @@
     font-style: normal;
 }
 
+table {
+  ;
+    font-size: 13px;
+    margin: 45px;
+    width: 85%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    font-family: 'Lato Black' ;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 8px;
+    background: #0E5324;
+    border-top: 4px solid #0E5324;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-weight: bolder;
+}
+
+th .col{
+    width: 14px;
+}
+td {
+    padding: 8px;
+    background: #DFE0DF;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
 body {
     background-attachment: fixed;
     font-family: 'hero_lightlight';
@@ -132,7 +169,7 @@ header {
     background: #bec2c4;
     width: 98%;
     position: fixed;
-    margin: 12px 12px 12px 12px ;
+    margin: 12px 12px 12px 12px;
     box-shadow: 0 5px 3px #313131, 0 5px 0 #393939, 0px 9px 10px rgba(0, 0, 0, 0.4), inset 0px 2px 9px rgba(255, 255, 255, 0.2), inset 0 -2px 9px rgba(0, 0, 0, 0.2);
     height: 14%;
     margin-bottom: 15px;
@@ -145,15 +182,14 @@ nav {
     position: relative;
     margin: 0px 0px 0px 0px;
     clear: both;
-
 }
 
 nav img {
     position: relative;
     z-index: 123;
-    padding: 6px 10px;
+    padding: 5px 10px;
     float: left;
-    margin: -15px 0px 0px 60px;
+    margin: 0px 0px 0px 60px;
     width: 120px;
 }
 
@@ -184,7 +220,6 @@ section {
     height: 35%;
 }
 
-
 #bodySection {
     margin: 165px 0px 0px 0px;
     width: 100%;
@@ -205,7 +240,6 @@ section {
     padding: 0 5px;
 }
 
-
 #home {
     background: #fff;
     padding: 20px;
@@ -213,6 +247,7 @@ section {
     box-sizing: border-box;
     align-content: flex-start;
 }
+
 
 }
 .mainPage {
@@ -241,18 +276,18 @@ display: list-item;
     margin: 0 auto;
 }
 h1 {
-    position: relative;
-    top: 325px;
-    font-size: 55px;
+    
+    top: 0px;
+    font-size: 30px;
     color: #fff;
     font-family: 'Lato Regular';
     font-weight: bold;
     transform: translateY(-50%);
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 5px 3px rgba(0, 0, 0, 1);
-    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-align: left;
+    margin: auto auto auto 45px ;
 }
-
 
 /*Fin de los elementos del section*/
 
@@ -268,7 +303,6 @@ footer {
     width: 98%;
     height: 85px;
     border-radius: 8px;
-
 }
 .texto1 {
     font-family: 'Lato Light';
@@ -278,6 +312,28 @@ footer {
     margin: auto;
     display: block;
     color: white;
+}
+
+.buttonLogin {
+    width: 140px;
+    height: 38px;
+    border: 0px;
+    display: block;
+    margin: 16px auto -5px auto;
+    font-size: 16px;
+    font-family: 'Lato Light';
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #F27A67;
+}
+
+
+.buttonLogin:hover {
+    transition: background-color 0.5s ease;
+    background-color: #E6100E;
+    border-radius: 5px;
+    color: #000;
 }
 
 
@@ -297,12 +353,13 @@ footer {
     #bodySections .items>h2 {
         font-size: 30px;
     }
+    
     nav img {
-    position: relative;
-    z-index: 123;
-    padding: 0px 10px;
-    float: left;
-    margin: 0px 0px 0px 3px;
+        position: relative;
+        z-index: 123;
+        padding: 0px 10px;
+        float: left;
+        margin: 0px 0px 0px 3px;
     }
     
     .contentImg {
@@ -317,8 +374,37 @@ footer {
     #bodySection .items p {
         font-size: 16px;
     }
+<<<<<<< HEAD
+=======
     
-  
+    
 
     
+}
+
+
+.contenedorControlEnfermedades{
+        background-color:#99A3A4;
+    margin: 0 16% 0 16%;
+    margin-top: 120px;
+text-align: center;   
+    border-radius: 9px;
+    }
+
+.tablaControlEnfermedades{
+    width: auto;
+        border-radius: 9px ;
+    text-align: center;
+
+}
+
+.buttonsdiv{
+    text-align: center;
+        margin-top: 2px;
+}
+
+.tablaControlEnfermedades input:text{
+    background-color: aqua;
+    
+>>>>>>> origin/master
 }
