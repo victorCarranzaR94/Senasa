@@ -21,17 +21,22 @@
                         if(isset($_SESSION['tipoUsuario'])){
                         switch($_SESSION['tipoUsuario']){
                             case "estandar":
-                                echo "<li><a class='' href='#'>Inicio</a></li>
-                                      <li><a class='' href='#'>Opcion 1</a></li>
-                                      <li><a class='' href='index.php'>Cerrar Session</a></li>";
-                            break;
-                            case "administrador":
-                                echo "<ul id='menu'><li><a class='' href='#'>Inicio</a></li>
-                                      
+                                echo "<ul id='menu'>
                                       <li><a class='' href='#'>Información</a>
                                       <ul>
                                       <li><a class='' href='#'>Introducir Imagenes</a></li>
                                       <li><a class='' href='#'>Ingresar Hoja de Vida</a></li>
+                                      <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
+                                      </ul></li>
+                                      </ul>";
+                            break;
+                            case "administrador":
+                                echo "<ul id='menu'>
+                                      
+                                      <li><a class='' href='#'>Información</a>
+                                      <ul>
+                                      <li><a class='' href='#'>Introducir Imagenes</a></li>
+                                      <li><a class='' href='#'>Ingresar Hoja de Visita</a></li>
                                       <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
                                       
@@ -63,7 +68,12 @@
                                       <li><a class='' href='#'>Asignar Hoja de Visitas a Usuario</a></li>
                                       
                                       </ul></li>
-                                      <li><a class='' href='index.php'>Cerrar Session</a></li></ul>";
+                                      <li><a class='' href='#'>Opciones</a>
+                                      <ul>
+                                      <li><a class='' href='RegLog.php'>Ingresar Usuario</a></li>
+                                      <li><a class='' href='index.php'>Cerrar Session</a></li>
+                                      </ul></li>
+                                      </ul>";
                             break;
                         
                          }
