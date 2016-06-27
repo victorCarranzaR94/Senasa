@@ -7,7 +7,18 @@
     font-weight: bolder;
     font-family: 'Lato Regular';
     color: #fff;
-    margin: 20px 0 0 50px;
+    margin: 19px 0 0 -100px;
+}
+
+.btnRegform{
+    background-color: #F27A67;
+    height: 35px;
+    width: 80px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-family: 'Lato Regular';
+    color: #fff;
+    margin: 196px 0 0 -211px;
 }
 
 .btnReg:hover {
@@ -23,33 +34,36 @@
 }
 
 #form {
-    background-color: silver;
-    width: 90%;
+background-color: silver;
+    width: 32%;
     padding: 0% 4%;
     box-sizing: border-box;
     border-radius: 30px;
     float: left;
-    height: 400px;
+    height: 440px;
+    margin: 120px 0 0 350px;
 }
 
 #form2 {
-      background-color: silver;
-    width: 95%;
+        background-color: silver;
+    width: 35%;
     padding: 0% 6%;
     box-sizing: border-box;
     border-radius: 30px;
     float: left;
     height: 369px;
+    margin: 120px 0px 0px 380px;
 }
 
 #form3 {
-    background-color: silver;
-       width: 110%;
+     background-color: silver;
+    width: 42%;
     padding: 0% 12%;
     box-sizing: border-box;
     border-radius: 30px;
     float: left;
     height: 369px;
+    margin: 120px 0 0 350px;
 }
 
 
@@ -155,7 +169,7 @@
     font-weight: bolder;
     font-family: 'Lato Regular';
     color: #fff;
-    margin: 20px 0px 0 610px;
+        margin: 19px 0 0 100px;
 }
     
 
