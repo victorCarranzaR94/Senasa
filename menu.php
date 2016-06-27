@@ -38,7 +38,7 @@
                                       <li><a class='' href='#'>Capacitacion recibida</a></li>
                                       <li><a class='' href='reunions.php'>Participacion en reuniones</a></li>
                                       </ul></li>
-                                      <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
+                                      <li><a class='' href='ordenSanitaria.php'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
                                       
                                       <li><a class='' href='reporteUser.php'>Consultas y Reportes</a>
@@ -73,7 +73,7 @@
                                       <li><a class='' href='#'>Capacitacion recibida</a></li>
                                       <li><a class='' href='reunions.php'>Participacion en reuniones</a></li>
                                       </ul></li>
-                                      <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
+                                      <li><a class='' href='ordenSanitaria.php'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
                                       
                                       <li><a class='' href='#'>Consultas y Reportes ▼</a>
