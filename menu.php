@@ -71,7 +71,7 @@
                                       <li><a class='' href='#'>Rastreabilidad y control de movilizacion de animales</a></li>
                                       <li><a class='' href='#'>Capacitacion impartida</a></li>
                                       <li><a class='' href='#'>Capacitacion recibida</a></li>
-                                      <li><a class='' href='#'>Participacion en reuniones</a></li>
+                                      <li><a class='' href='reunions.php'>Participacion en reuniones</a></li>
                                       </ul></li>
                                       <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>

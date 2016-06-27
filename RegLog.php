@@ -65,7 +65,7 @@ $database->insert("tbusuario",[ "login" => $_POST["login"],
                     <div id="bottons">
                         <p>
                             <input type="submit" value="Guardar" class="btnReg"> &nbsp; &nbsp;
-                            <input type="reset" name="reset" onClick="window.location.replace('index.php')" value="Cancelar" class="btnReg">
+                            <input type="reset" name="reset" onClick="window.location.replace('principal.php')" value="Cancelar" class="btnReg">
                         </p>
                     </div>
                     </form>
@@ -80,6 +80,6 @@ $database->insert("tbusuario",[ "login" => $_POST["login"],
     
     <?php
   require('footer.php');
-?>
+?> 
 
     </html>
