@@ -31,8 +31,7 @@ require('headerAdmin.php');
            <div>
                <form>
                <label for="codigo" id="codigo">Codigo de Hoja de Visita: </label>
-               <input name="codigo" type="text" required >
-               <p><input type="submit" value="Buscar" class="btnReg"> &nbsp; &nbsp;</p>
+               <input name="codigo" type="search" required 
                </form>    
            </div>
                 
