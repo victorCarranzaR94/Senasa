@@ -1,5 +1,17 @@
 <?php
   require('headerAdmin.php');
+
+if($_POST){
+ require("db/db.php");
+
+if($_POST["pw"] == $_POST["pw2"]){
+$database->insert("tbusuario",[ "login" => $_POST["login"],
+                                "tipoUsuario" => $_POST["tipoUser"],
+                                "password" => md5($_POST["pw"])
+]);
+}else{
+    echo "password no coinciden";
+}}
 ?>
 
     <!DOCTYPE html>
@@ -22,29 +34,23 @@
             </b>
                     </br>
                   
-
+                    <form method="post" action="RegLog.php">
                     <div id="form1">
 
-                        <label for="nombre" id="name">Nombre:</label>
-                        <input name="nombre" type="text" required placeholder="ej:Nombre" class="prof">
-
-                        <label for="apellido1" id="ape1">Primer apellido:</label>
-                        <input name="apellido1" type="text" required placeholder="ej:romanov" class="prof">
-
-                        <label for="apellido2" id="ape2">Segundo apellido:</label>
-                        <input name="apellido2" type="text" required placeholder="ej:romanov" class="prof">
-
-                        <label for="edad" id="age">Edad</label>
-                        <input name="edad" type="text" required placeholder="ej:15" class="prof">
-
+                        <label for="correo" id="correo">Nombre de usuario</label>
+                        <input name="login" type="email" required placeholder="Nombre de usuario" class="prof">
+                        
+                        <label for="correo" id="correo">Tipo de usuario</label>
+                        <select name="tipoUser">
+                            <option>Seleccione</option>
+                            <option>administrador</option>
+                            <option>director</option>
+                            <option>estandar</option>
+                        </select>
                     </div>
                     <div id="form2">
 
-                        <label for="genero" id="genero">Género</label>
-                        <input name="genero" type="text" required placeholder="ej:masculino" class="prof">
-
-                        <label for="correo" id="correo">Correo:</label>
-                        <input name="correo" type="email" required placeholder="ej:name@domain.com" class="prof">
+                       
 
                         <label for="pw" id="pw">Password:</label>
                         <input name="pw" type="password" required placeholder="**********" class="prof">
@@ -61,6 +67,7 @@
                             <input type="reset" name="reset" onClick="window.location.replace('index.php')" value="Cancelar" class="btnReg">
                         </p>
                     </div>
+                    </form>
                 </div>
             </form>
         </div>
