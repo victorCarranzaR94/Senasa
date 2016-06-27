@@ -114,3 +114,11 @@ form .buttonLogin:hover {
     border-radius: 5px;
     color: #000;
 }
+
+.texto1 {
+  color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    display: block;
+}

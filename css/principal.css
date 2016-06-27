@@ -1,11 +1,16 @@
- #home nav ul li a {
+#home{
+    background-image: url(../img/vacas.jpg);
+    background-size: cover;
+}
+
+#home nav ul li a {
     display: block;
-    padding: 20px;
+    padding: 10px;
     color: #323A46;
     text-decoration: none;
     font-family: 'Roboto', serif;
-    font-size: 17px;
-    text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    text-shadow: 4px 2px 9px rgba(0, 0, 0, -0.5);
     text-transform: uppercase;
     font-weight: 700;
 }   
@@ -20,6 +25,12 @@
 
 .big {
     min-height: 800px;
+    max-height: 1920px;
+    height: 100%;
+}
+
+.medium{
+    min-height: 50px;
     max-height: 1920px;
     height: 100%;
 }
@@ -45,7 +56,7 @@
     text-decoration: none;
 }
     .padding-top {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 /*FOOTER*/
@@ -71,9 +82,9 @@ footer {
   
   
 ul#menu {
- background: #BEC2C5;
- float:left;
- padding: 5px;
+    background: #BEC2C5;
+    float: left;
+    padding: 5px 60px 5px 5px;
 }
   
 ul#menu li {
@@ -91,31 +102,33 @@ ul#menu li:hover{
 ul#menu ul {
  display: none;
  position: absolute;
- top: 65px;
+ top: 55px;
  background: rgba(190, 194, 197, 0.5);
  color: #fff;
  padding: 5px 0px 5px 5px;
+ font-size: 10px;
  margin: 0;
  width: 300px;
  }
 
 ul#menu ul ul{
- display: none;
- position: absolute;
- left: 280px;
- background: rgba(190, 194, 197, 0.5);
-
- color: #fff;
- padding: 5px 0px 5px 5px;
- margin: 0;
- width: 300px;
+    display: none;
+    position: absolute;
+    left: 301px;
+    top: 30px;
+    background: rgba(190, 194, 197, 0.5);
+    color: #fff;
+    font-size: 10px;
+    padding: 5px 0px 2px 5px;
+    margin: 0;
+    width: 300px;
  }
+
   
 ul#menu ul li{
  float: left;
  color: #fff;
  width:100%;
- margin:2% 0%;
 }
  
  
