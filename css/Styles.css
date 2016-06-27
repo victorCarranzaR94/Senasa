@@ -374,4 +374,37 @@ footer {
     #bodySection .items p {
         font-size: 16px;
     }
+<<<<<<< HEAD
+=======
+    
+    
+
+    
+}
+
+
+.contenedorControlEnfermedades{
+        background-color:#99A3A4;
+    margin: 0 16% 0 16%;
+    margin-top: 120px;
+text-align: center;   
+    border-radius: 9px;
+    }
+
+.tablaControlEnfermedades{
+    width: auto;
+        border-radius: 9px ;
+    text-align: center;
+
+}
+
+.buttonsdiv{
+    text-align: center;
+        margin-top: 2px;
+}
+
+.tablaControlEnfermedades input:text{
+    background-color: aqua;
+    
+>>>>>>> origin/master
 }

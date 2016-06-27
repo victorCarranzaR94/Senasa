@@ -1,0 +1,38 @@
+.btnReg {
+    background-color: #F27A67;
+    height: 35px;
+    width: 80px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-family: 'Lato Regular';
+    color: #fff;
+    margin: 0 0 0 50px;
+}
+
+.btnReg:hover {
+    transition: background-color 0.5s ease;
+    background-color: #E6100E;
+    border-radius: 5px;
+    color: #000;
+}
+
+#form {
+    padding: 12%;
+    padding-bottom: 23%;
+    padding-left: 20%;
+}
+
+.observaciones{
+    height: 70px;
+}
+
+
+.b1In{
+    float: left;
+    width: 30%;
+}
+
+.b1text{
+    width: 20%;
+    float: left;
+}
