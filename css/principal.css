@@ -1,11 +1,16 @@
- #home nav ul li a {
+#home{
+    background-image: url(../img/vacas.jpg);
+    background-size: cover;
+}
+
+#home nav ul li a {
     display: block;
     padding: 10px;
     color: #323A46;
     text-decoration: none;
     font-family: 'Roboto', serif;
     font-size: 14px;
-    text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 2px 9px rgba(0, 0, 0, -0.5);
     text-transform: uppercase;
     font-weight: 700;
 }   
