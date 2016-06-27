@@ -7,7 +7,7 @@
     font-weight: bolder;
     font-family: 'Lato Regular';
     color: #fff;
-    margin: 0 0 0 50px;
+    margin: 20px 0 0 50px;
 }
 
 .btnReg:hover {
@@ -23,11 +23,33 @@
 }
 
 #form {
-    width: 70%;
+    background-color: silver;
+    width: 90%;
     padding: 0% 4%;
     box-sizing: border-box;
     border-radius: 30px;
     float: left;
+    height: 400px;
+}
+
+#form2 {
+      background-color: silver;
+    width: 95%;
+    padding: 0% 6%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    float: left;
+    height: 369px;
+}
+
+#form3 {
+    background-color: silver;
+       width: 110%;
+    padding: 0% 12%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    float: left;
+    height: 369px;
 }
 
 
@@ -35,17 +57,18 @@
 .label{
        display: block;
     float: left;
-    padding: 10px 0;
+   /* padding: 10px 0;*/
+    margin: 28px 0 0 0;
 }
 
 
 .dato {
      display: block;
-    width: 15%;
+    width: 70px;
     text-align: center;
-    margin: 4px;
+    margin: 21px 0 0 0;
     transition: all .4s .1s;
-    padding: 7px 29px;
+   /* padding: 7px 29px;*/
     outline: none;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     border-radius: 5px;
@@ -90,19 +113,38 @@
     float: right;
     height: 350px;
 }
+.b2In{
+    width: 30%;
+    float: left;
+    height: 350px;
+}
+
+.b2text{
+    width: 70%;
+    float: right;
+    height: 350px;
+}
+
+.b2text .label{
+    
+        margin: 7px 0px 0px 0px;
+}
+.b2In .dato{
+    margin: 6px 0 0 0;
+    width: 100px;
+}
 
 .divB2{
-    background: green;
+/*    background: green;*/
     width: 30%;
       height: 400px;
     float: right;
 }
 
 .divB3{
-    background: blue;
-    width: 25%;
-      height: 400px;
     
+    width: 25%;
+      height: 400px;   
 }
     
 
