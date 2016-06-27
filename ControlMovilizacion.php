@@ -33,7 +33,7 @@ session_start();
                 <label class="label">N° procesos en base de datos</label><br/>
                 <label class="label">N° guias entregadas a oficiales</label><br/><br/>
                  <button type="submit"  name="guardarCR" value="guardarCR " class="btnRegform">Guardar</button>
-                 <input type="reset" name="reset" onClick="window.location.replace('principal.php')" value="Cancelar" class="btnRegform">
+                 <input type="reset" name="reset" onClick="window.location.replace('principal.php')" value="Cancelar" class="btnCancel">
                </div>
             
                

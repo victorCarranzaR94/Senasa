@@ -69,8 +69,8 @@
                                       <li><a class='' href='#'>Operativos Sanitarios</a></li>
                                       <li><a class='' href='#'>Atencion de Exportacion e Importacion</a></li>
                                       <li><a class='' href='ControlMovilizacion.php'>Rastreabilidad y control de movilizacion de animales</a></li>
-                                      <li><a class='' href='#'>Capacitacion impartida</a></li>
-                                      <li><a class='' href='#'>Capacitacion recibida</a></li>
+                                      <li><a class='' href='capacitacionIn.php'>Capacitacion impartida</a></li>
+                                      <li><a class='' href='capacitacionRe.php'>Capacitacion recibida</a></li>
                                       <li><a class='' href='reunions.php'>Participacion en reuniones</a></li>
                                       </ul></li>
                                       <li><a class='' href='ordenSanitaria.php'>Abrir Registro de Orden Sanitaria</a></li> 
