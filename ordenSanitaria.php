@@ -27,10 +27,10 @@ session_start();
                </div>
      
             <div class="b1In">
-                    <input class="dato" type="text" name="Fecha"><br><br>
+                    <input class="dato" type="date" name="Fecha"><br><br>
                     <input class="dato" type="text" name="rangoHojas"><br><br>
-                    <input class="dato" type="text" name="fechaEmision"> <br><br>
-                    <input class="dato" type="text" name="fechaVencimiento"><br><br>
+                    <input class="dato" type="date" name="fechaEmision"> <br><br>
+                    <input class="dato" type="date" name="fechaVencimiento"><br><br>
                     <input class="dato" type="text" name="tipoDias"><br><br>
                     <input class="observaciones" type="text" name="observaciones"><br><br>
                 
