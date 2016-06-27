@@ -25,7 +25,7 @@
                                       
                                       <li><a class='' href='#'>Información</a>
                                       <ul>
-                                      <li><a class='' href='#'>Introducir Imagenes</a></li>
+                                      <li><a class='' href='cargarimagen.php'>Introducir Imagenes</a></li>
                                       <li><a class='' href='#'>Ingresar Hoja de Visita</a>
                                       <ul>
                                       <li><a class='' href='#'>Prevencion y control de Enfermedades</a></li>
@@ -60,7 +60,7 @@
                                       
                                       <li><a class='' href='#'>Información</a>
                                       <ul>
-                                      <li><a class='' href='#'>Introducir Imagenes</a></li>
+                                      <li><a class='' href='cargarimagen.php'>Introducir Imagenes</a></li>
                                       <li><a class='' href='#'>Ingresar Hoja de Visita</a>
                                       <ul>
                                       <li><a class='' href='#'>Prevencion y control de Enfermedades</a></li>

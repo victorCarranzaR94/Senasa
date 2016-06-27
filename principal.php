@@ -24,7 +24,7 @@ session_start();
         ?>
     </section>
 
-<section>  <?php echo $_SESSION["tipoUsuario"];?></section>
+<section> </section>
             
 <section>
 <?php
