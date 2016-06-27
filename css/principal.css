@@ -24,6 +24,12 @@
     height: 100%;
 }
 
+.medium{
+    min-height: 50px;
+    max-height: 1920px;
+    height: 100%;
+}
+
 
 /*Menu */
     .menu-fixed {
