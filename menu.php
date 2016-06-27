@@ -22,12 +22,37 @@
                         switch($_SESSION['tipoUsuario']){
                             case "estandar":
                                 echo "<ul id='menu'>
+                                      
                                       <li><a class='' href='#'>Información</a>
                                       <ul>
                                       <li><a class='' href='#'>Introducir Imagenes</a></li>
-                                      <li><a class='' href='#'>Ingresar Hoja de Vida</a></li>
+                                      <li><a class='' href='#'>Ingresar Hoja de Visita</a>
+                                      <ul>
+                                      <li><a class='' href='#'>Prevencion y control de Enfermedades</a></li>
+                                      <li><a class='' href='#'>Visita de fiscalizacion e inspeccion</a></li>
+                                      <li><a class='' href='#'>Certificado veterinario de operacion y denuncias sanitarias</a></li>
+                                      <li><a class='' href='#'>Operativos Sanitarios</a></li>
+                                      <li><a class='' href='#'>Atencion de Exportacion e Importacion</a></li>
+                                      <li><a class='' href='#'>Rastreabilidad y control de movilizacion de animales</a></li>
+                                      <li><a class='' href='#'>Capacitacion impartida</a></li>
+                                      <li><a class='' href='#'>Capacitacion recibida</a></li>
+                                      <li><a class='' href='#'>Participacion en reuniones</a></li>
+                                      </ul></li>
                                       <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
+                                      
+                                      <li><a class='' href='#'>Consultas y Reportes</a>
+                                      <ul>
+                                      <li><a class='' href='#'>Consulta General por Periodo</a></li>
+                                      <li><a class='' href='#'>Generar Reporte</a></li>
+                                      </ul></li>
+                                      
+                                      <li><a class='' href='#'>Calendario de Actividades</a>
+                                      <ul>
+                                      <li><a class='' href='#'>Ver Actividades Pendientes</a></li> 
+                                      </ul></li>
+                                      
+                                      <li><a class='' href='index.php'>Cerrar Session</a></li>
                                       </ul>";
                             break;
                             case "administrador":

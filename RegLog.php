@@ -9,6 +9,7 @@ $database->insert("tbusuario",[ "login" => $_POST["login"],
                                 "tipoUsuario" => $_POST["tipoUser"],
                                 "password" => md5($_POST["pw"])
 ]);
+    header("Location: principal.php");
 }else{
     echo "password no coinciden";
 }}
@@ -38,7 +39,7 @@ $database->insert("tbusuario",[ "login" => $_POST["login"],
                     <div id="form1">
 
                         <label for="correo" id="correo">Nombre de usuario</label>
-                        <input name="login" type="email" required placeholder="Nombre de usuario" class="prof">
+                        <input name="login" type="text" required placeholder="Nombre de usuario" class="prof">
                         
                         <label for="correo" id="correo">Tipo de usuario</label>
                         <select name="tipoUser">
