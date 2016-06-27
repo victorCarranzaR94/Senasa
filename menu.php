@@ -61,7 +61,18 @@
                                       <li><a class='' href='#'>Información</a>
                                       <ul>
                                       <li><a class='' href='#'>Introducir Imagenes</a></li>
-                                      <li><a class='' href='#'>Ingresar Hoja de Visita</a></li>
+                                      <li><a class='' href='#'>Ingresar Hoja de Visita</a>
+                                      <ul>
+                                      <li><a class='' href='#'>Prevencion y control de Enfermedades</a></li>
+                                      <li><a class='' href='#'>Visita de fiscalizacion e inspeccion</a></li>
+                                      <li><a class='' href='#'>Certificado veterinario de operacion y denuncias sanitarias</a></li>
+                                      <li><a class='' href='#'>Operativos Sanitarios</a></li>
+                                      <li><a class='' href='#'>Atencion de Exportacion e Importacion</a></li>
+                                      <li><a class='' href='#'>Rastreabilidad y control de movilizacion de animales</a></li>
+                                      <li><a class='' href='#'>Capacitacion impartida</a></li>
+                                      <li><a class='' href='#'>Capacitacion recibida</a></li>
+                                      <li><a class='' href='#'>Participacion en reuniones</a></li>
+                                      </ul></li>
                                       <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
                                       
