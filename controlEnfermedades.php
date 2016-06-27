@@ -293,8 +293,8 @@ Fincas Atendidas por Vigilancia Epidem</th>
    <div class="buttonsdiv">
     <input type="button"  value="vertificar"
         onclick='mapTable()'> 
-        <input type="button" class='btnReg' value="Volver"
-        onclick='History.back()'>
+        <input type="reset" class='reset' value="Volver"
+        onclick="window.location.replace('principal.php')">
         </div> 
    </div>
     </section>
