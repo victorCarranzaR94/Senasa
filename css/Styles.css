@@ -311,7 +311,7 @@ footer {
     }
     
     #bodySection {
-        height: 700px;
+        height: 1000px;
     }
     
     #bodySection .items p {
@@ -327,6 +327,7 @@ footer {
 .contenedorControlEnfermedades{
         background-color:#99A3A4;
     margin: 0 16% 0 16%;
+    margin-top: 120px;
 text-align: center;   
     border-radius: 9px;
     }
@@ -334,10 +335,16 @@ text-align: center;
 .tablaControlEnfermedades{
     width: auto;
         border-radius: 9px ;
+    text-align: center;
 
 }
 
 .buttonsdiv{
     text-align: center;
-        margin:10px 0 0 0;
+        margin-top: 2px;
+}
+
+.tablaControlEnfermedades input:text{
+    background-color: aqua;
+    
 }
