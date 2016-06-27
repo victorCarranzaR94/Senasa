@@ -317,7 +317,26 @@ footer {
         font-size: 16px;
     }
     
-  
+    
 
     
+}
+
+
+.contenedorControlEnfermedades{
+        background-color:#99A3A4;
+    margin: 0 16% 0 16%;
+text-align: center;   
+    border-radius: 9px;
+    }
+
+.tablaControlEnfermedades{
+    width: auto;
+        border-radius: 9px ;
+
+}
+
+.buttonsdiv{
+    text-align: center;
+        margin:10px 0 0 0;
 }
