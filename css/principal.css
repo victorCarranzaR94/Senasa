@@ -1,14 +1,22 @@
-
-#home nav ul li a {
+ #home nav ul li a {
     display: block;
     padding: 20px;
-    color: #0E5324;
+    color: #323A46;
     text-decoration: none;
     font-family: 'Roboto', serif;
     font-size: 17px;
+    text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
     font-weight: 700;
+}   
+
+#home nav ul li a:hover {
+    color: #EB4A33;
+    background: rgba(190, 194, 197, 0.5);
+    -webkit-transition: color 500ms ease 0s;
+    transition: color 500ms ease 0s;
 }
+
 
 .big {
     min-height: 800px;
@@ -58,4 +66,74 @@ footer {
     font-size: 16px;
     margin: auto;
     display: block;
+}
+
+  
+  
+ul#menu {
+ background: #BEC2C5;
+ float:left;
+ padding: 5px;
+}
+  
+ul#menu li {
+ color: #fff;
+ float: left;
+ list-style: none;
+}
+}
+  
+ul#menu li:hover{
+ color: #EB4A33;
+ cursor:pointer;
+}
+  
+ul#menu ul {
+ display: none;
+ position: absolute;
+ top: 65px;
+ background: rgba(190, 194, 197, 0.5);
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ width: 300px;
+ }
+
+ul#menu ul ul{
+ display: none;
+ position: absolute;
+ left: 280px;
+ background: rgba(190, 194, 197, 0.5);
+
+ color: #fff;
+ padding: 5px 0px 5px 5px;
+ margin: 0;
+ width: 300px;
+ }
+  
+ul#menu ul li{
+ float: left;
+ color: #fff;
+ width:100%;
+ margin:2% 0%;
+}
+ 
+ 
+ul#menu ul li a{
+ color: #323A46;
+}
+  
+ul#menu ul li a:hover{
+ color: #EB4A33;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul ul,ul#menu li:hover ul ul ul,ul#menu li.iehover ul ul,ul#menu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+  
+ul#menu li:hover ul,ul#menu ul li:hover ul,ul#menu ul ul li:hover ul,ul#menu li.iehover ul,ul#menu ul li.iehover ul,ul#menu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
 }
