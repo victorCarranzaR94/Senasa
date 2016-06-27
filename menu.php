@@ -25,7 +25,7 @@
                                       
                                       <li><a class='' href='#'>Información</a>
                                       <ul>
-                                      <li><a class='' href='#'>Introducir Imagenes</a></li>
+                                      <li><a class='' href='cargarimagen.php'>Introducir Imagenes</a></li>
                                       <li><a class='' href='#'>Ingresar Hoja de Visita </a>
                                       <ul>
                                       <li><a class='' href='#'>Prevencion y control de Enfermedades</a></li>
@@ -38,7 +38,7 @@
                                       <li><a class='' href='#'>Capacitacion recibida</a></li>
                                       <li><a class='' href='#'>Participacion en reuniones</a></li>
                                       </ul></li>
-                                      <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
+                                      <li><a class='' href='ordenSanitaria.php'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
                                       
                                       <li><a class='' href='#'>Consultas y Reportes</a>
@@ -60,7 +60,7 @@
                                       
                                       <li><a class='' href='#'>Información ▼</a>
                                       <ul>
-                                      <li><a class='' href='#'>Introducir Imagenes</a></li>
+                                      <li><a class='' href='cargarimagen.php'>Introducir Imagenes</a></li>
                                       <li><a class='' href='#'>Ingresar Hoja de Visita ►</a>
                                       <ul>
                                       <li><a class='' href='#'>Prevencion y control de Enfermedades</a></li>
@@ -73,7 +73,7 @@
                                       <li><a class='' href='#'>Capacitacion recibida</a></li>
                                       <li><a class='' href='reunions.php'>Participacion en reuniones</a></li>
                                       </ul></li>
-                                      <li><a class='' href='#'>Abrir Registro de Orden Sanitaria</a></li> 
+                                      <li><a class='' href='ordenSanitaria.php'>Abrir Registro de Orden Sanitaria</a></li> 
                                       </ul></li>
                                       
                                       <li><a class='' href='#'>Consultas y Reportes ▼</a>
